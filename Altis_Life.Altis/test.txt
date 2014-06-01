@@ -1,0 +1,16 @@
+
+// Valentine Edits
+
+reservedSlots = [Admin];
+reservedUnits = [bis_curatorUnit, bis_curatorUnit1];
+reservedUIDs = ["76561198021266777","76561198021266777"];
+{
+  if (_x not in reservedUIDs) then
+  {
+		call BIS_fnc_endMission; //kick player, dont know how...
+  };
+}
+forEach reservedUnits;
+
+
+gatename animate ["Door_1_rot",1]
