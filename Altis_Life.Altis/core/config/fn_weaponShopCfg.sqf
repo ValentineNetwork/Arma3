@@ -232,19 +232,28 @@ switch(_shop) do
 	
 	case "medic":
 	{
-		["Medic Shop",
-			[
-				["Binocular",nil,150],
-				["ItemGPS",nil,100],
-				["ToolKit",nil,250],
-				["FirstAidKit",nil,150],
-				["NVGoggles",nil,2000],
-				["Chemlight_red",nil,300],
-				["Chemlight_yellow",nil,300],
-				["Chemlight_green",nil,300],
-				["Chemlight_blue",nil,300],
-				["Medikit",nil,100]
-			]
-		];
+		switch(true) do
+		{
+			case (playerSide != indepentdant): {"You are not a Medic!"};
+			default
+			{
+				["Altis Patrol Officer Shop",
+					[
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["Medikit",nil,1000],
+						["NVGoggles",nil,2000],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["B_Carryall_cbr",nil,1],
+						["V_Press_F",nil,1]
+					]
+				];
+			};
+		};
 	};
+
 };
