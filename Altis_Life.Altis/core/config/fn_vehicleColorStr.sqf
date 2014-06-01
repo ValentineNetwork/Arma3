@@ -16,7 +16,7 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Red";};
+			case 0: {_color = "Medic";};
 			case 1: {_color = "Yellow";};
 			case 2: {_color = "White";};
 			case 3: {_color = "Blue";};
