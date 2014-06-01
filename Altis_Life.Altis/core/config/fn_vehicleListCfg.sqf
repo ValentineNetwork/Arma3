@@ -420,6 +420,14 @@ switch (_shop) do
 			["C_Van_01_fuel_F",7500]
 		];
 	};
+	
+	case "Medic Cars":
+	{
+		_return =
+		[
+			["C_Offroad_01_F",500],
+		];
+	};
 };
 
 _return;
