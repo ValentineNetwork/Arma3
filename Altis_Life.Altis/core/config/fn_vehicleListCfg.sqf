@@ -421,7 +421,7 @@ switch (_shop) do
 		];
 	};
 	
-	case "Medic Cars":
+	case "medic_cars":
 	{
 		_return =
 		[
