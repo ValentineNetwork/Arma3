@@ -425,7 +425,7 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Offroad_01_F",500],
+			["C_Offroad_01_F",500]
 		];
 	};
 };
