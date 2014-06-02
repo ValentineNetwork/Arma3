@@ -423,10 +423,15 @@ switch (_shop) do
 	
 	case "medic_cars":
 	{
-		_return =
-		[
-			["C_Offroad_01_F",500]
-		];
+		switch(true) do
+		{
+			case (playerSide != indepentdant): {"You are not a Medic!"};
+			default
+				_return =
+				[
+					["C_Offroad_01_F",500]
+				];
+		};
 	};
 };
 
