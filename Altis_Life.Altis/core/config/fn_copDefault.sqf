@@ -32,5 +32,10 @@ player addItem "ItemMap";
 player assignItem "ItemMap";
 player addItem "ItemCompass";
 player assignItem "ItemCompass";
+player addItem "NVGoggles";
+player assignItem "NVGoggles";
+player addItem "ItemGPS";
+player addBackpack "B_Carryall_cbr";
+player addItem "H_Beret_blk_POLICE";
 
 [] call life_fnc_saveGear;
