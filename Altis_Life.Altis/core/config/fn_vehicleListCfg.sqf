@@ -427,10 +427,12 @@ switch (_shop) do
 		{
 			case (playerSide != indepentdant): {"You are not a Medic!"};
 			default
+			{
 				_return =
 				[
 					["C_Offroad_01_F",500]
 				];
+			};
 		};
 	};
 };
